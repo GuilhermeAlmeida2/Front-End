@@ -1,0 +1,37 @@
+<h1>Seja bem vindo ao curso de Angular!</h1>
+<h4 class="text-danger">{{ anuncio }}</h4>
+
+<div class="row">
+  <div class="col">
+    <app-card-produto
+      [foto]="foto"
+      [nomeProduto]="nomeProduto"
+      [promocao]="promocao"
+      [idProduto]="idProduto"
+      [dataValidade]="dataValidade"
+      [precoProduto]="precoProduto"
+    ></app-card-produto>
+  </div>
+
+  <div class="col">
+    <app-card-produto
+      foto="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/2869305456_f529dff8bb_o.jpeg?quality=70&strip=info&w=925&w=636"
+      nomeProduto="Praia de Boa Viagem"
+      [promocao]="false"
+      [idProduto]="15"
+      dataValidade="2021-12-31"
+      [precoProduto]="5434.0"
+    ></app-card-produto>
+  </div>
+
+  <div class="col">
+    <app-card-produto
+      foto="https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/2869305456_f529dff8bb_o.jpeg?quality=70&strip=info&w=925&w=636"
+      nomeProduto="Praia de Boa Viagem"
+      [promocao]="false"
+      [idProduto]="15"
+      dataValidade="2021-12-31"
+      [precoProduto]="5434.0"
+    ></app-card-produto>
+  </div>
+</div>
